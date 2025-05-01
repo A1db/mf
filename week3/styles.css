@@ -1,18 +1,11 @@
-.box {
-    width: 100px;
-    height: 80%;
-    font-size: 1.5em;
+.block-to-inline {
+    display: inline;
+    width: 100%;
+    height: 100%;
 }
 
-.bigger {
-    font-size: 2rem;
-}
-
-p {
-    color: #b00b;
-    background-color: rgba(69, 200, 102, 0.5);
-}
-
-h1 {
-    color: rgb(42, 0, 69);
+.inline-to-block {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
