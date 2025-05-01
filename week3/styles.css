@@ -1,19 +1,86 @@
-.block-to-inline {
-    display: inline;
-    width: 100%;
-    height: 100%;
+.btn {
+    text-align: center;
+    cursor: pointer;
 }
 
-.inline-to-block {
-    display: block;
-    width: 100%;
-    height: 100%;
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
 }
 
-.cool {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+
+
+.input {
+    width: 60%;
+    padding: 6px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.input:focus {
+    background-color: #ddd;
+    border: paleturquoise;
+    outline: paleturquoise;
+    border: 2px solid lightblue;
+}
+
+
+
+.list-item {
+    font-size:21px;
+}
+
+/* .list-item:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+.list-item:nth-child(even) {
+    background-color: #e7f3fe;
+} */
+.list-item:first-child {
+    font-style: italic;
+}
+.list-item:last-child {
+    font-style: oblique;
+}
+
+.link {
+    color: #0000EE;
+    text-decoration: underline;
+}
+.link:hover {
+    color: #ac7fe7;
+}
+
+
+
+.list-item2 {
+    font-size:18px;
+}
+
+.list-item2:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.exp {
+    font-size: 13px;
+}
+.exp:first-child {
+    font-style: italic;
+}
+.exp:nth-child(odd) { 
+    /* nth child берет верх */
+    font-style: normal;
+    background-color: rgb(106, 252, 203);
+}
+.exp:hover {
+    /* Когда наводим мышкой на элемент, он меняется */
+    background-color: #4781ff;
+    color: #ffffff;
+}
+.input:last-child {
+    background-color: #fa8484;
+    color: #0d0849;
+    outline: none;
+    border: 2px solid lightblue;
 }
